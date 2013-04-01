@@ -1,0 +1,11 @@
+Alias /myemsl/brand /var/www/myemsl/brand
+
+<Directory /var/www/myemsl/brand>
+    AllowOverride All
+    Options Indexes FollowSymLinks MultiViews Includes
+    Order deny,allow
+    DirectoryIndex index.html index.php index.shtml
+    AddType text/html .shtml
+    AddHandler server-parsed .shtml
+</Directory>
+

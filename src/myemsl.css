@@ -1,0 +1,196 @@
+#myemsl_iteminfo_table {
+	width: 950px;
+}
+#myemsl_iteminfo_table td {
+	vertical-align: top;
+}
+
+.myemsl_search_gray_count {
+	color: Gray;
+}
+.myemsl_search_facet_title {
+	color: Blue;
+}
+.myemsl_search_facet_row {
+	white-space: nowrap;
+	padding: 0px 0px 0px 10px;
+}
+.myemsl_search_selected_facets_row {
+	display: inline-block;
+	background-color: #dfdfdf;
+	border-color: #cfcfcf;
+	border-style: solid;
+	border-width: 1px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	padding: 5px 5px 5px 5px;
+	margin: 0px 0px 5px 0px;
+}
+/* Work around for emsl css */
+a.myemsl_search_facet_link {
+	color: Black;
+	text-decoration: none;
+}
+.myemsl_search_facet_link {
+	color: Black;
+	text-decoration: none;
+}
+.myemsl_search_selected_facet_name a:visited {
+	color: Black;
+	text-decoration: none;
+}
+.myemsl_search_selected_facet_remove a:visited {
+	color: Blue;
+	text-decoration: none;
+}
+.myemsl_search_selected_facet_name a:link {
+	color: Blue;
+	text-decoration: none;
+}
+.myemsl_search_selected_facet_remove a:link {
+	color: Blue;
+	text-decoration: none;
+}
+.myemsl_search_selected_facet_remove_link {
+	vertical-align: super;
+	font-size: 75%;
+}
+.myemsl_search_facets_sidebar {
+	background-color: #dfdfdf;
+	min-width: 200px;
+}
+.myemsl_search_narrow_results {
+	font-size: 20px;
+	display: inline-block;
+	margin: 0px 0px 5px 0px;
+}
+.myemsl_search_box_wrapper {
+	width: 100%;
+	background-color: #dfdfdf;
+	margin: 0px 0px 10px 0px;
+}
+.myemsl_search_results_col {
+	padding: 0px 0px 0px 0px;
+}
+.myemsl_search_type_label {
+	padding: 0px 0px 0px 5px;
+	font-size: 20px;
+}
+.myemsl_search_items_per_page {
+	float: right;
+	margin: 10px 10px 10px 10px;
+}
+.myemsl_search_table {
+	width: 100%;
+}
+.myemsl_search_icon {
+	display: inline-block;
+	position: relative;
+	left: -20px;
+	right: 0px;
+}
+#myemsl_search_results {
+	width: 100%;
+}
+#myemsl_search_results em {
+	color: Blue;
+}
+#myemsl_search {
+	margin: 0px 0px 0px 10px;
+	padding: 0px 18px 0px 0px;
+}
+
+.myemsl_label_over_container {  
+        position: relative;  
+        float: left;
+}
+LABEL.over-apply {
+        color: #ccc;
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        z-index:1000;
+}
+.myemsl_search_wrapper {
+position:relative;
+}
+.myemsl_search_button { 
+position:absolute;
+right: 2px;
+top: -2px;
+}
+.myemsl_search_textbox {  
+        padding: 0px 20px 0px 0px;
+}
+
+.myemsl_hidden {
+	display: none;
+}
+
+/*FIXME, move this to timepicker css file.*/
+.ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+.ui-timepicker-div dl { text-align: left; }
+.ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+.ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+.ui-timepicker-div td { font-size: 90%; }
+.ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+#ui-datepicker-div.noday .ui-datepicker-calendar {
+	display: none;
+}
+
+.myemsl_predicate_wizard_no_bullet {
+	list-style:none
+}
+.myemsl_predicate_wizard_navigation {
+	float: right;
+}
+.myemsl_predicate_wizard_form_system_value {
+	width: 100%;
+}
+.myemsl_predicate_wizard_form_user_value {
+	width: 100%;
+}
+
+.myemsl_predicate_wizard_center_container {
+	width: 100%;
+
+	display:-moz-box;
+	-moz-box-pack:center;
+	-moz-box-align:center;
+
+	/* Safari and Chrome */
+	display:-webkit-box;
+	-webkit-box-pack:center;
+	-webkit-box-align:center;
+
+	/* W3C */
+	display:box;
+	box-pack:center;
+	box-align:center;
+}
+
+.myemsl_predicate_wizard_enum_entry {
+	border-collapse: collapse;
+}
+
+.myemsl_predicate_wizard_enum_entry tr {
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+	border-color: gray;
+	border-size: 1px;
+}
+
+.myemsl_predicate_wizard_enum_entry td:first-child {
+	border-width: 0px 1px 0px 0px;
+	border-style: dotted;
+	border-color: gray;
+	border-size: 1px;
+}
+.myemsl_predicate_wizard_enum_entry td {
+	padding: 5px 10px 5px 10px;
+}
+
+.myemsl_predicate_wizard_form_item_add {
+	margin: 5px 0px 5px 0px;
+}
