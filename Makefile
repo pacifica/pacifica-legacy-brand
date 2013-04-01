@@ -26,6 +26,6 @@ mock: dist
 	rm -rf packages/"$(MOCKDIST)"
 	mkdir -p packages/"$(MOCKDIST)"/srpms
 	mkdir -p packages/"$(MOCKDIST)"/bin
-	$(MOCK) -r "$(MOCKDIST)" --buildsrpm --spec src/pacifica-brand.spec $(MOCKOPTS) --sources "`pwd`"
+	$(MOCK) -r "$(MOCKDIST)" --buildsrpm --spec src/pacifica-$(PREFIX)-brand.spec $(MOCKOPTS) --sources "`pwd`"
 	mv "/var/lib/mock/$(MOCKDIST)/result/"*.src.rpm packages/"$(MOCKDIST)"/srpms/
 	$(MOCK) -r "$(MOCKDIST)" --result "$(CURDIR)"/packages/"$(MOCKDIST)"/bin $(MOCKOPTS) "$(CURDIR)"/packages/"$(MOCKDIST)"/srpms/*.src.rpm
