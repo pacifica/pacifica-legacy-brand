@@ -1,7 +1,7 @@
 # Just works for rhel5-x86_64 systems.
 
 Name: pacifica-devel-brand
-Version: 0.7
+Version: 0.8
 Release: 1%{?dist}
 Summary: Pacifica Brand
 Group: System Environment/Base
@@ -10,7 +10,7 @@ Source: %{name}-%{version}.tar.gz
 Requires: myemsl-web %{name}-common
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
-Provides: myemsl-brand pacifica-brand
+Provides: pacifica-brand
 
 %description
 Pacifica Devel Brand
@@ -20,7 +20,7 @@ Summary:        Pacifica Devel Brand SSL
 Group:          System Environment/Base
 Requires: myemsl-web-ssl %{name}-common
 BuildArch: noarch
-Provides: myemsl-brand-ssl pacifica-brand-ssl
+Provides: pacifica-brand-ssl
 
 %description    ssl
 Pacifica Devel Brand
@@ -30,7 +30,7 @@ Summary:        Pacifica Brand Common
 Group:          System Environment/Base
 Requires: myemsl-web-common
 BuildArch: noarch
-Provides: myemsl-brand-common pacifica-brand-common
+Provides: pacifica-brand-common
 
 %description    common
 Pacifica Brand
